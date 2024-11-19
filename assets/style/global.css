@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis./comcss2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import  url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap');
 
 * {
    padding: 0; /*Padding é para por espaçamento interno em um elemento*/
@@ -6,5 +6,24 @@
    margin: 0; /*Margin é para por espaçamento externo em um elemento*/
 
    box-sizing: border-box; 
-   font-family: "Ubuntu", sans-serif;
+   font-family: "Istok Web", sans-serif;
+}
+/*  */
+
+:root{
+   --preto: #0000;
+   --branco: #fff;
+   --azulForte: #375DDB;
+   --azulClaro: #4A66C2;
+   --azulComOpacidade: #375DDB50;
+}
+
+body{
+   background-color: var(--preto);
+}
+
+h1{
+   position: absolute;
+   z-index: 0;
+   opacity: 0;
 }
