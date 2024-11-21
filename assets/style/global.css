@@ -7,6 +7,9 @@
 
    box-sizing: border-box; 
    font-family: "Istok Web", sans-serif;
+
+   list-style: none;
+   text-decoration: none;
 }
 /*  */
 
@@ -30,7 +33,7 @@ h1{
 
 .container{
    width: 90%;
-   max-width: 1920px;
+   max-width: 1440px;
    margin: 0 auto;
 }
 
@@ -52,7 +55,6 @@ header{
    margin: 0 auto;
 
    position: fixed;
-
 }
 
 header a:visited{
