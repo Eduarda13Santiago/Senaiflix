@@ -5,7 +5,7 @@
     height: 100vh;
 
     background:    
-    linear-gradient(0deg, #000000 0%, #375DDB05 12%, #375DDB20 25%, #375DDB30 75%, #375DDB50 87%, #000000 100%, #000000 100%),
+    linear-gradient(0deg, #000000 0%, #375DDB50 12%, #375DDB20 25%, #375DDB30 75%, #375DDB50 87%, #000000 100%, #000000 100%),
     url(../assets/images/banner\ venom.svg) ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,3 +19,22 @@
     justify-content: space-between;
        
 }
+
+.pesquisa_persona{
+  gap: 15%;
+    display: flex; 
+   flex-direction: row; 
+   align-items: center;
+}
+
+header a:visited{
+    color: white;
+}
+
+.header_navegacao{
+    display: flex;
+    gap: 60%;
+}
+
+
+
