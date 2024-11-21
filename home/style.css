@@ -5,7 +5,7 @@
     height: 100vh;
 
     background:
-        linear-gradient(0deg, #000000 0%, #375DDB50 12%, #375DDB20 25%, #375DDB30 75%, #375DDB50 87%, #000000 100%, #000000 100%),
+        /* linear-gradient(0deg, #000000 0%, #375DDB50 12%, #375DDB20 25%, #375DDB30 75%, #375DDB50 87%, #000000 100%, #000000 100%), */
         url(../assets/images/banner\ venom.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,7 @@
 .header_navegacao {
     display: flex;
     gap: 60%;
+
 }
 
 .icone_lupa {
@@ -71,7 +72,7 @@ form {
     width: 450px;
     height: fit-content;
 
-    
+
 }
 
 .textos_banner {
@@ -82,7 +83,7 @@ form {
     gap: 20px;
 }
 
-.titulo_banner{
+.titulo_banner {
     display: flex;
     flex-direction: column;
 }
@@ -124,14 +125,16 @@ form {
     gap: 5px;
 }
 
-.bolinha_banner{
+.bolinha_banner {
     height: 10px;
     width: 10px;
     border-radius: 50%;
     background-color: #fff;
 }
 
-.categoria_a, .categoria_f, .hora_banner{
+.categoria_a,
+.categoria_f,
+.hora_banner {
     display: flex;
     flex-direction: row;
     border: 1px solid white;
@@ -141,9 +144,7 @@ form {
 }
 
 
-.sinopse {
-    
-}
+.sinopse {}
 
 .botao_banner button {
     height: 45px;
@@ -155,14 +156,12 @@ form {
     font-size: 15px;
 
     margin-top: 10px;
+    
 }
 
 
-
-
-
 #teste {
-    background-color: red;
+    background-color: black;
     width: 100vw;
     height: 100vh;
 }
