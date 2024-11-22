@@ -158,7 +158,33 @@ form {
     margin-top: 10px;
     
 }
+/* .linha_filtro {
 
+
+}
+.filtro_botao{
+    height: 50px;
+   
+    border: black;
+    max-width: 1440px; 
+    width: 90%;
+    margin: 0 auto;
+} */
+
+/* SESSAO FILTRO */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+/* SESSAO FORM */
+
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
 
 #teste {
     background-color: black;
