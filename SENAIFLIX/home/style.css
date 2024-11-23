@@ -1,0 +1,118 @@
+/* SESSAO BANNER */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background:
+        linear-gradient(0deg, #000000 0%, #00000080 12%, #00000033 25%, #00000033 75%, #00000080 87%, #000000 100%, #000000 100%),
+        url(../assets/images/bannerbreakingbad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_posicionamento {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sinopse_posicionamento {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 20%;
+}
+
+/* Atribui a cor branca para dois elementos
+ com diferentes classes */
+.sinopse_titulo,
+.sinopse_paragrafo {
+    color: var(--branco);
+    text-shadow: var(--preto) 0 0 17px;
+}
+
+.sinopse_titulo {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sinopse_paragrafo {
+    width: 100%;
+    max-width: 500px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+/* SESSAO MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SESSAO FORM */
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+
+    flex-wrap: wrap;
+}
+
+.form_alinhamento_filtro {
+    width: 100%;
+    max-width: 393px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: first baseline; */
+    gap: 9px;
+}
+
+.form_alinhamento_filtro>label {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* INPUT - PESQUISAR POR NOME DE FILME/SERIE */
+.form_alinhamento_filtro>div{
+    /* background-color: blue; */
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid var(--brancoComOpacidade); */
+    border: var(--bordas);
+    border-radius: var(--arredondamento);
+    padding: 4px;
+}
+
+.form_alinhamento_filtro>div>input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+/* INPUT - PESQUISAR POR GENERO */
+.form_alinhamento_filtro>select{
+    width: 100%;
+    height: 38px;
+    background-color: transparent;
+    border: var(--bordas);
+    border-radius: var(--arredondamento);
+
+    
+}
+.form_alinhamento_filtro>div>input>,
+.form_alinhamento_filtro>select{
+    color: var(--brancoComOpacidade);
+    font-size: 16px;
+    font-weight: 100;
+    outline: none;
+}
+.form_alinhamento_filtro>select>option{
+    color: var(--preto);
+}

@@ -159,6 +159,7 @@ form {
 
 }
 
+/* Principal linha */
 .linha_filtro { 
     height: 70px;
     width: 100%;
@@ -172,7 +173,7 @@ form {
     justify-content: left;
     gap: 100px;
     
-}
+} 
 
 /* .filtro_botao {
     max-width: 1440px;
@@ -180,7 +181,7 @@ form {
     margin: 0 auto;
 } */
 
-.filtro-junto{
+/* .filtro-junto{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -208,19 +209,67 @@ form {
 
 /* SESSAO FILTRO */
 
-main {
+/* main {
     display: flex;
     flex-direction: column;
 }
 
 /* SESSAO FORM */
 
-.barrinha_filtragem {
+/* .barrinha_filtragem {
     width: 100%;
     display: flex;
     align-items: center;
     gap: 37px;
 }
+
+.form_alinhamento_filtro {
+    width: 100%;
+    max-width: 393px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; 
+    gap: 9px;
+}
+
+.form_alinhamento_filtro>label {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+}  
+/* input pesquisar por nome de filme/serie */
+
+/* .form_alinhamento_filtro>div{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: var(--bordas);
+    border-radius: var(--arredondamento);
+    padding: 4px;
+}
+
+.form_alinhamento_filtro>div>input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 100;
+} */
+/* input pesquisar por nome de filme/serie */
+/* .form_alinhamento_filtro>select{
+    width: 100%;
+    height: 38px;
+    background-color: transparent;
+    border: var(--bordas);
+    border-radius:var(--arredondamento);
+    outline: none;
+    color: var(--branco);
+} */
+
 
 #teste {
     background-color: black;
@@ -228,7 +277,7 @@ main {
     height: 100vh;
 }
 
-#fundo_barra {
+/* #fundo_barra {
     height: 50px;
     background-color: transparent;
     border-radius: 15px;
@@ -237,4 +286,4 @@ main {
     display: flex;
     align-items: center;
     
-}
+} */

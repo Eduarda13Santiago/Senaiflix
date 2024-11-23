@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Verificar se o leitor de tela le tambem o titulo da guia de endereco -->
+    <title>SENAIFLIX - Home</title>
+    <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../assets/style/global.css">
+</head>
+
+<body>
+    <h1>Página Inicial senaiflix</h1>
+    <section class="banner">
+        <div class="container banner_posicionamento">
+            <header class="header_primario">
+                <a href="../home/index.html" target="_blank">
+                    <img src="../assets/images/Logo.svg" alt="Logo do SENAIFLIX">
+                </a>
+
+                <nav class="header_navegacao">
+                    <a href="../home/index.html" class="header_link">Início</a>
+                    <a href="#" class="header_link">Filmes</a>
+                    <a href="#" class="header_link">Séries</a>
+                </nav>
+            </header>
+            <div class="sinopse_posicionamento">
+                <span class="sinopse_titulo">assista agora!</span>
+                <p class="sinopse_paragrafo">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo
+                    futuro da família, mudando o destino de todos.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <form>
+            <div class="form_alinhamento_filtro">
+                <label for="input_filtro_nome">Pesquise por filmes e/ou séries:</label>
+                <div>
+                    <input type="search" id="input_filtro_nome" placeholder="Breaking Bad" />
+                    <img src="../assets/images/icones/lupa.png" alt="Ícone que representa uma lupa">
+                </div>
+
+            </div>
+
+            <div class="form_alinhamento_filtro">
+                <label for="select_filtro_genero">Filtrar por gênero:</label>
+                <select id="select_filtro_genero">
+                  <option value="" selected>Selecione um gênero</option>
+                  <option value="acao">Ação</option>
+                  <option value="terror">Terror</option>  
+                </select>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

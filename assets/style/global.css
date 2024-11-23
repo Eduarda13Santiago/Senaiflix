@@ -23,6 +23,8 @@
    --azulForte: #375DDB;
    --azulClaro: #4A66C2;
    --azulComOpacidade: #375DDB50;
+   --bordas: 1px solid var(--branco);
+   --arredondamento: 7px ;
 }
 
 body {
