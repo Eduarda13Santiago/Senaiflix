@@ -14,28 +14,31 @@
 <body>
     <h1>Página Inicial senaiflix</h1>
 
-    <header class="header_primario">
-        <div class="conteudo_header">
-            <a href="index.html">
-                <img src="../assets/images/loguinho.svg" alt="Logo do SENAIFLIX">
-            </a>
-            <nav class="header_navegacao">
-                <a href="#" class="header_link1">Filmes</a>
-                <a href="#" class="header_link2">Series</a>
-                <a href="#" class="header_link3">Animes</a>
+    <header>
+        
+        <div class="conteudo">
+            <a href="index.html"><img src="../assets/images/loguinho.svg" alt="Logo do SENAIFLIX"></a>
+
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="index.html" class="">Inicio</a></li>
+                    <li><a href="#" class="">Filmes</a></li>
+                    <li><a href="#" class="">Series</a></li>
+                    <li><a href="#" class="">Animes</a></li>
+                </ul>
             </nav>
 
-            <div class="pesquisa_persona">
+            <div class="pesquisa">
 
-                <form method="post" action="#" id="fundo_barra">
-                    <input type="text" class="barra_pesquisa" name="busca" placeholder="">
-                    <a href="" class="testando"><img class="icone_lupa" src="../assets/images/icones/Lupa.svg"
-                            alt="Imagem da lupa de pesquisa"></a>
+                <form method="post" action="#" id="barra">
+                    <input type="text" class="barraPesquisa" name="busca">
+                    <a class="barra_btn" href=""><img class="imgLupa" src="../assets/images/icones/Lupa.svg" alt=""> </a>
                 </form>
 
-                <img class="divisao_persona" src="../assets/images/icones/perfil.svg" alt="Botão de perfil">
+                <img class="persona" src="../assets/images/icones/perfil.svg" alt="Botão de perfil">
             </div>
         </div>
+
     </header>
 
     <section class="banner">
@@ -81,70 +84,31 @@
 
     </section>
 
-    <!-- FEITO COM A ALEXIA -->
-    <!-- <main class="container_filtro">
+    <section id="filtragem">
 
-        <form class="barrinha_filtragem">
-            <div class="form_alinhamento_filtro">
-                <div>
-                    <label for="input_filtro_nome">Pesquise por filmes e/ou séries:</label>
+        <div class="sem_fundo"></div>
 
-                    <div>
-                        <input type="search" id="input_filtro_nome" placeholder="Pesquisar" />
-                        <img src="../assets/images/icones/Lupa.svg" alt="Icone lupa">
+        <div class="conteudo_filtro">
 
-                    </div>
+            <button>
+                <img class="imgFunil" src="../assets/images/icones/Filtro.svg" alt="imagem de filtragem">
+                <p>Filtro</p>
+                <img class="imgSeta" src="../assets/images/icones/setaprabaixo.svg" alt="seta pra baixo">
+            </button>
 
-                </div>
-                <div class="form_alinhamento_filtro">
-                    <label for="">Filtrar por genero:</label>
-                    <select id="select_filtro_genero">
-                        <option value="" selected>Selecione um genero</option>
-                        <option value="acao">Acao</option>
-                        <option value="ficcao">Ficcao cientifica</option>
-                        <option value="terror">Terror</option>
-                        <option value="romance">Romance</option>
-                        <option value="infantil">Infantil</option>
-                        <option value="drama">Drama</option>
-                        <option value="suspense">Suspense</option>
-               
-                    </select>
-                </div>
-            </div>
-        </form>
-
-    </main> -->
-
-
-    <!--FEITO SOLO  -->
-
-    <!-- <section class="barra_filtro">
-
-        <div class="linha_filtro">
-
-            <div class="filtro_botao">
-                <button>
-                    <div class="filtro-junto">
-                        <img src="../assets/images/icones/Filtro.svg" alt="imagem de filtragem">
-                        <p>Filtro</p>
-                    </div>
-                    <img class="setaparabaixo" src="../assets/images/icones/setaprabaixo.svg" alt="seta pra baixo">
-                </button>
-            </div>
-
-            <div class="filtro_botao">
-                <button>
-                    <div class="filtro-junto">
-                        <p>Ano de lançamento</p>
-                    </div>
-                    <img class="setaparabaixo" src="../assets/images/icones/setaprabaixo.svg" alt="seta pra baixo">
-                </button>
-            </div>
+            <button>
+                <p>Ano de lançamento</p>
+                <img class="imgSeta" src="../assets/images/icones/setaprabaixo.svg" alt="">
+            </button>
 
         </div>
 
-    </section> -->
+        <div class="sem_fundo"></div>
 
+    </section>
+
+
+    <section></section>
 
     <section id="teste"></section>
     <section id="teste"></section>

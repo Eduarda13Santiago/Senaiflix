@@ -46,44 +46,108 @@ h1 {
 
 /* SESSAO HEADER */
 header {
+   position: fixed;
+
+   height: 10vh;
+   width: 100%;
+
+   background: linear-gradient(0deg, #375DDB05 0%, #375DDB10 10%, #375DDB20 25%, #375DDB30 45%, #375DDB40 55%, #375DDB50 65%, #375DDB60 45%, #375DDB65 50%, #375DDB75 60%, #375DDB80 75%, #375DDB75 85%, #00000080 90%, #000000 100%);
+   /* background-color: red; */
+
    display: flex;
+   flex-direction: row;
+
+   align-items: center;
    justify-content: center;
 }
 
-.conteudo_header {
-   height: 100px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background:
-      linear-gradient(0deg, #375DDB05 0%, #375DDB10 10%, #375DDB20 25%, #375DDB30 45%, #375DDB40 55%, #375DDB50 65%, #375DDB60 45%, #375DDB65 50%, #375DDB75 60%, #375DDB80 75%, #375DDB75 85%, #00000080 90%, #000000 100%);
-
+.conteudo {
    width: 90%;
-   max-width: none;
-   margin: 0 auto;
+   /* max-width: 1440px; */
 
-   position: fixed;
-
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
 }
 
-header a:visited {
+.navegacao ul {
+   display: flex;
+font-size: 15px;
+}
+
+.navegacao ul li a {
    color: white;
 
+   padding-left: 40px;
 }
 
-.header_link1:hover {
+.navegacao ul li:hover {
+   cursor: pointer;
    scale: 1.3;
    transition: 0.5s;
 }
 
-.header_link2:hover {
-   scale: 1.3;
-   transition: 0.5s;
+.pesquisa {
+   display: flex;
+   flex-direction: row;
+
+   align-items: center;
+   justify-content: center;
 }
 
-.header_link3:hover {
-   scale: 1.3;
-   transition: 0.5s;
+#barra{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   height: 40px;
+   border-radius: 15px;
+   border: 1px solid white;
+   
+   padding: 10px;
+}
+
+.barraPesquisa {
+   width: 0px;
+   line-height: 40px;
+
+   background: none;
+   outline: none;
+   border-color: transparent;
+   color: white;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   transition: 0.4s;
+}
+
+.barra_btn{
+   color: cadetblue;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#barra:hover > .barraPesquisa{
+   width: 240px;
+}
+
+.imgLupa{
+   width: 20px;
+}
+
+.persona {
+   width: 35px;
+   margin-left: 30px;
+
+   cursor: pointer;
 }
 
 .botao_banner button:hover {
