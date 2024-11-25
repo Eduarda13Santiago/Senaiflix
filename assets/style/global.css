@@ -29,7 +29,6 @@
 
 body {
    background-color: var(--preto);
-
 }
 
 h1 {
@@ -46,39 +45,15 @@ h1 {
 
 /* SESSAO HEADER */
 
-/* header {
+header{
+   position: fixed;
+   width: 100%;
+
    display: flex;
    justify-content: center;
-}
 
-.conteudo_header {
-   height: 100px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
    background:
       linear-gradient(0deg, #375DDB05 0%, #375DDB10 10%, #375DDB20 25%, #375DDB30 45%, #375DDB40 55%, #375DDB50 65%, #375DDB60 45%, #375DDB65 50%, #375DDB75 60%, #375DDB80 75%, #375DDB75 85%, #00000080 90%, #000000 100%);
-
-   width: 90%;
-   max-width: none;
-   margin: 0 auto;
-
-   position: fixed;
-}
-
-header a:visited {
-   color: white;
-}
-
-.header_link:hover {
-   scale: 1.3;
-   transition: 0.5s;
-} */
-
-
-header {
-   display: flex;
-   justify-content: center;
 }
 
 
@@ -90,31 +65,30 @@ header {
    justify-content: space-between;
    align-items: center;
    margin: 0 auto;
-
-   position: fixed;
 }
 
-nav ul{
+nav ul {
    display: flex;
    gap: 50px;
 }
 
-nav a{
+nav a {
    color: white;
 }
 
-nav ul li:hover{
+nav ul li:hover {
    scale: 1.3;
    transition: 0.5s;
 }
 
-.pesquisa_header{
+.pesquisa_header {
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.barra{
+.barra {
+   height: 50px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -122,19 +96,36 @@ nav ul li:hover{
    background-color: transparent;
    border: var(--bordas);
    border-radius: 15px;
+
+   padding: 10px;
 }
 
-.barra_fechada{
-   width: 240px;
+.barra_fechada {
+   width: 0px;
 
    background-color: transparent;
    border: transparent;
    outline: none;
    color: white;
+
+   font-size: 15px;
+}
+.barra:hover > .barra_fechada{
+   width: 240px;
+   transition: 0.4s;
 }
 
+.icone_lupa {
+   width: 40px;
+}
+
+.perfil {
+   width: 40px;
+   margin-left: 30px;
+}
 
 /* HEADER TERMINADO */
+
 .botao_banner button:hover {
    scale: 1.2;
    transition: 0.50s;
