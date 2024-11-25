@@ -24,12 +24,11 @@
    --azulClaro: #4A66C2;
    --azulComOpacidade: #375DDB50;
    --bordas: 1px solid var(--branco);
-   --arredondamento: 7px ;
+   --arredondamento: 7px;
 }
 
 body {
    background-color: var(--preto);
-
 }
 
 h1 {
@@ -59,6 +58,9 @@ header {
 
    align-items: center;
    justify-content: center;
+
+   background:
+      linear-gradient(0deg, #375DDB05 0%, #375DDB10 10%, #375DDB20 25%, #375DDB30 45%, #375DDB40 55%, #375DDB50 65%, #375DDB60 45%, #375DDB65 50%, #375DDB75 60%, #375DDB80 75%, #375DDB75 85%, #00000080 90%, #000000 100%);
 }
 
 .conteudo {
@@ -154,5 +156,4 @@ font-size: 15px;
    scale: 1.2;
    transition: 0.50s;
    background-color: #0E316D;
-
 }
