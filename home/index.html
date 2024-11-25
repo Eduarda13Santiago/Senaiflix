@@ -14,15 +14,15 @@
 <body>
     <h1>Página Inicial senaiflix</h1>
 
-    <header class="header_primario">
+    <!-- <header class="header_primario">
         <div class="conteudo_header">
             <a href="index.html">
                 <img src="../assets/images/loguinho.svg" alt="Logo do SENAIFLIX">
             </a>
             <nav class="header_navegacao">
-                <a href="#" class="header_link1">Filmes</a>
-                <a href="#" class="header_link2">Series</a>
-                <a href="#" class="header_link3">Animes</a>
+                <a href="#" class="header_link">Filmes</a>
+                <a href="#" class="header_link">Series</a>
+                <a href="#" class="header_link">Animes</a>
             </nav>
 
             <div class="pesquisa_persona">
@@ -36,6 +36,36 @@
                 <img class="divisao_persona" src="../assets/images/icones/perfil.svg" alt="Botão de perfil">
             </div>
         </div>
+    </header> -->
+
+    <header>
+        <div class="conteudo_header">
+            <a href="index.html">
+                <img src="../assets/images/Log positivo.svg" alt="imagem do logo">
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="">Filmes</a></li>
+                    <li><a href="">Séries</a></li>
+                    <li><a href="">Animes</a></li>
+                </ul>
+            </nav>
+
+            <div class="pesquisa_header">
+
+                    <div class="barra">
+                        <input type="text" class="barra_fechada" name="busca" placeholder="">
+                        <a href="" class="barra_aberta"><img class="icone_lupa" src="../assets/images/icones/Lupa.svg"
+                                alt="Imagem da lupa de pesquisa"></a>
+                    </div>
+              
+                <img class="pesquisa_persona" src="../assets/images/icones/perfil.svg" alt="Botâo de perfil">
+
+            </div>
+        </div>
+
     </header>
 
     <section class="banner">
@@ -81,44 +111,9 @@
 
     </section>
 
-    <!-- FEITO COM A ALEXIA -->
-    <!-- <main class="container_filtro">
-
-        <form class="barrinha_filtragem">
-            <div class="form_alinhamento_filtro">
-                <div>
-                    <label for="input_filtro_nome">Pesquise por filmes e/ou séries:</label>
-
-                    <div>
-                        <input type="search" id="input_filtro_nome" placeholder="Pesquisar" />
-                        <img src="../assets/images/icones/Lupa.svg" alt="Icone lupa">
-
-                    </div>
-
-                </div>
-                <div class="form_alinhamento_filtro">
-                    <label for="">Filtrar por genero:</label>
-                    <select id="select_filtro_genero">
-                        <option value="" selected>Selecione um genero</option>
-                        <option value="acao">Acao</option>
-                        <option value="ficcao">Ficcao cientifica</option>
-                        <option value="terror">Terror</option>
-                        <option value="romance">Romance</option>
-                        <option value="infantil">Infantil</option>
-                        <option value="drama">Drama</option>
-                        <option value="suspense">Suspense</option>
-               
-                    </select>
-                </div>
-            </div>
-        </form>
-
-    </main> -->
-
-
     <!--FEITO SOLO  -->
 
-    <!-- <section class="barra_filtro">
+    <section class="barra_filtro">
 
         <div class="linha_filtro">
 
@@ -143,7 +138,33 @@
 
         </div>
 
-    </section> -->
+    </section>
+
+    <section id="filtragem">
+        <div class="sem_fundo"></div>
+
+        <div class="conteudo_filtro">
+
+            <button class="btn_filtro">
+
+                <img class="funil_filtro" src="../assets/images/icones/Filtro.svg" alt="">
+                <p>Filtro</p>
+                <img class="setinha_filtro" src="../assets/images/icones/setaprabaixo.svg" alt="">
+
+            </button>
+
+            <button class="ano_lancamento">
+
+                <p>Ano de lançamento</p>
+                <img class="setinha_filtro" src="../assets/images/icones/setaprabaixo.svg" alt="">
+
+            </button>
+
+        </div>
+
+        <div class="sem_fundo"></div>
+
+    </section>
 
 
     <section id="teste"></section>
