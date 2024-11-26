@@ -238,15 +238,16 @@ body::-webkit-scrollbar-button   {
 
 .case_lancamento>.conteudo_cases {
     display: flex;
-    gap: 15px;
+    gap: 13px;
+    justify-content: flex-start;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 
 
-#teste {
+/* #teste {
     background-color: black;
     width: 100vw;
     height: 100vh;
-}
+} */
