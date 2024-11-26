@@ -198,7 +198,7 @@
     /* margin-bottom: 10px;  IDEIA PARA LINHA DE SEPARACAO*/
 }
 
-#lancamento, .case_lancamento {
+#lancamento {
 
 }
 .linha_lancamento{
@@ -244,10 +244,13 @@ body::-webkit-scrollbar-button   {
     font-size: 15px;
 }
 
+.footer{
+    background-color: var(--preto);
+}
 
 
 /* #teste {
     background-color: black;
-    width: 100vw;
+    width: 97vw;
     height: 100vh;
 } */

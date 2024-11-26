@@ -55,6 +55,7 @@ html ::-webkit-scrollbar {
 html ::-webkit-scrollbar-track{
    background: var(--preto);
 }
+
 /* SESSAO HEADER */
 header {
    position: fixed;
