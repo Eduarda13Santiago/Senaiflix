@@ -237,17 +237,27 @@ body::-webkit-scrollbar-button {
     font-size: 15px;
 }
 
-.footer {
-    width: 90%;
+footer {
+    width: 100%;
     background-color: black;
-    color: white;
+
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 10%;
 
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 10px;
+}
+
+
+.footer {
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50%;
 }
 
 .logo_footer {
@@ -267,12 +277,6 @@ body::-webkit-scrollbar-button {
     display: flex;
     flex-direction: column;
 }
-
-/* footer>img{
-  display: flex;
-    gap: 5%;
-} */
-
 
 /* #teste {
     background-color: black;
