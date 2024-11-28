@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 /* SESSAO BANNER */
 
 .banner {
@@ -18,6 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
+    flex-wrap: wrap;
 }
 
 /* Banner - Banner - Banner - Banner - Banner - Banner - Banner - Banner */
@@ -198,17 +191,17 @@
     /* margin-bottom: 10px;  IDEIA PARA LINHA DE SEPARACAO*/
 }
 
-#lancamento {
+#lancamento {}
 
-}
-.linha_lancamento{
+.linha_lancamento {
     display: flex;
     overflow-x: scroll;
-} 
+}
 
-body::-webkit-scrollbar-button   {
+body::-webkit-scrollbar-button {
     background: var(--azulForte);
 }
+
 .titulo {
     /* width: 5%; */
     height: 100px;
@@ -244,9 +237,41 @@ body::-webkit-scrollbar-button   {
     font-size: 15px;
 }
 
-.footer{
-    background-color: var(--preto);
+.footer {
+    width: 90%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 10px;
 }
+
+.logo_footer {
+    width: 120px;
+}
+
+.logo_footer>h3 {
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.botoes_footer {
+    /* margin-left: 10px; */
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer>img{
+  display: flex;
+    gap: 5%;
+} */
 
 
 /* #teste {
@@ -254,3 +279,6 @@ body::-webkit-scrollbar-button   {
     width: 97vw;
     height: 100vh;
 } */
+
+/* Responsividade */
+/* @media only screen and () {} */

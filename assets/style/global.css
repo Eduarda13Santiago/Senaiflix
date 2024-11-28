@@ -162,6 +162,19 @@ header {
    cursor: pointer;
 }
 
+#nav_hamburguer{
+   display: none;
+   background-color: transparent;
+   border: transparent;
+   cursor: pointer;
+
+}
+
+#nav_hamburguer>img{
+   width: 30px;
+   height: 30px;
+}
+
 /* Termina o header */
 
 .botao_banner button:hover {
@@ -189,4 +202,20 @@ header {
    scale: 1.2;
    transition: 0.50s;
    background-color: #0E316D;
+}
+/* RESPOSIVO */
+@media only screen and (max-width:768px) {
+   /* SECCAO HEADER */
+   #nav_hamburguer{
+      display: block;
+   }
+   .navegacao{
+      display: none;
+   }
+   .pesquisa{
+      display: none;
+   }
+   .persona{
+      display: none;
+   }
 }
