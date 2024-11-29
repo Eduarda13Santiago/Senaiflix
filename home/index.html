@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="../assets/images/Favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../assets/style/global.css">
+    <link rel="stylesheet" href="../assets/js/script.js">
 </head>
 
 <body>
@@ -18,16 +19,17 @@
     <header>
 
         <div class="conteudo">
-            <a href="index.html"><img src="../assets/images/loguinho.svg" alt="Logo do SENAIFLIX"></a>
+            <a href="index.html"><img src="../assets/images/loguinho.svg" onclick="abrirMenuResponsivo()" alt="Logo do SENAIFLIX"></a>
 
             <nav class="navegacao">
                 <ul>
-                    <li><a href="#" class="">Inicio</a></li>
-                    <li><a href="#" class="">Filmes</a></li>
-                    <li><a href="#" class="">Series</a></li>
-                    <li><a href="#" class="">Animes</a></li>
+                    <li><a href="/home/index.html" class="">Inicio</a></li>
+                    <li><a href="#filmes" class="">Filmes</a></li>
+                    <li><a href="#series" class="">Series</a></li>
+                    <li><a href="#animes" class="">Animes</a></li>
                 </ul>
             </nav>
+
             <button id="nav_hamburguer" type="button">
                 <img src="../assets/images/menu.svg" alt="">
             </button>
@@ -281,7 +283,7 @@
         </div>
     </section>
 
-    <section id="lancamento">
+    <section id="filmes">
 
         <div class="titulo">
             <h2>Filmes</h2>
@@ -448,7 +450,7 @@
         </div>
     </section>
 
-    <section id="lancamento">
+    <section id="series">
 
         <div class="titulo">
             <h2>Series</h2>
@@ -615,7 +617,7 @@
         </div>
     </section>
 
-    <section id="lancamento">
+    <section id="animes">
 
         <div class="titulo">
             <h2>Animes</h2>
@@ -804,7 +806,7 @@
             </div>
 
             <div class="botoes_footer">
-                <h3>Precisa de suporte:</h3>
+                <h2>Precisa de suporte:</h2>
                 <p>Senaiflix546@gmail.com</p>
                 <p>(11) 98765-4321</p>
                 <p>4567-7899</p>
@@ -814,10 +816,34 @@
                 <img src="../assets/images/instagram.svg" alt="Instagram">
                 <img src="../assets/images/youtube.svg" alt="Youtube">
             </div>
+            <!-- <p>Copyright @ 2024 Senaiflix.com.br - Todos os direitos reservados CNPJ: 08.004.745/0009-13  Rua das Inovações, 123, Centro,
+                Cidade Tecnológica, Estado Inovador - CEP 12345-678</p> -->
         </div>
+
     </footer>
 
+    <div class="final">
+        <p>Copyright @ 2024 Senaiflix.com.br - Todos os direitos reservados CNPJ: 08.004.745/0009-13 Rua das Inovações,
+            123, Centro,
+            Cidade Tecnológica, Estado Inovador - CEP 12345-678</p>
+    </div>
+
     <!-- TERMINA OS CASES  -->
+
+    <section id="menu_responsivo">
+        <div class="container">
+            <header class="conteudo">
+
+                <a href="index.html"><img src="../assets/images/Log positivo.svg" alt="Logo do SENAIFLIX"></a>
+
+                <button type="button" id="nav_fechar" >
+                    <img src="../assets/images/icones/fechar.svg" alt="icone fechamento letra x">
+                </button>
+
+            </header>
+        </div>
+
+    </section>
 
     <section id="teste"></section>
     <section id="teste"></section>

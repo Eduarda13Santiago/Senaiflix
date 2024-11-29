@@ -45,14 +45,14 @@ h1 {
 
 html ::-webkit-scrollbar {
    width: 20px;
- }
+}
 
- html ::-webkit-scrollbar-thumb {
+html ::-webkit-scrollbar-thumb {
    border-radius: 5px;
    background: var(--azulForte);
- }
+}
 
-html ::-webkit-scrollbar-track{
+html ::-webkit-scrollbar-track {
    background: var(--preto);
 }
 
@@ -162,7 +162,7 @@ header {
    cursor: pointer;
 }
 
-#nav_hamburguer{
+#nav_hamburguer {
    display: none;
    background-color: transparent;
    border: transparent;
@@ -170,7 +170,7 @@ header {
 
 }
 
-#nav_hamburguer>img{
+#nav_hamburguer>img {
    width: 30px;
    height: 30px;
 }
@@ -198,24 +198,54 @@ header {
    font-size: 15px;
 
 }
-.titulo>button:hover{
+
+.titulo>button:hover {
    scale: 1.2;
    transition: 0.50s;
    background-color: #0E316D;
 }
+
+ /* menu responsivo  */
+
+ #menu_responsivo{
+   display: none;
+   backdrop-filter: blur(12px);
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   inset: 0;
+   
+} 
+
+#nav_fechar {
+   background-color: transparent;
+   border: transparent;
+   cursor: pointer;
+}
+
+#nav_fechar>img {
+   width: 30px;
+   height: 30px;
+}
+
+
 /* RESPOSIVO */
 @media only screen and (max-width:768px) {
+
    /* SECCAO HEADER */
-   #nav_hamburguer{
+   #nav_hamburguer {
       display: block;
    }
-   .navegacao{
+
+   .navegacao {
       display: none;
    }
-   .pesquisa{
+
+   .pesquisa {
       display: none;
    }
-   .persona{
+
+   .persona {
       display: none;
    }
 }

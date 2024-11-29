@@ -191,7 +191,18 @@
     /* margin-bottom: 10px;  IDEIA PARA LINHA DE SEPARACAO*/
 }
 
-#lancamento {}
+#filmes {
+    background-color: black;
+    /* margin-bottom: 10px;  IDEIA PARA LINHA DE SEPARACAO*/
+}
+#series {
+    background-color: black;
+    /* margin-bottom: 10px;  IDEIA PARA LINHA DE SEPARACAO*/
+}
+#animes {
+    background-color: black;
+    /* margin-bottom: 10px;  IDEIA PARA LINHA DE SEPARACAO*/
+}
 
 .linha_lancamento {
     display: flex;
@@ -229,6 +240,10 @@ body::-webkit-scrollbar-button {
     font-size: 25px;
 }
 
+.case_lancamento>img {
+    height: 70%;
+}
+
 .case_lancamento>.conteudo_cases {
     display: flex;
     gap: 13px;
@@ -257,25 +272,54 @@ footer {
     color: white;
     display: flex;
     justify-content: center;
-    gap: 50%;
+    gap: 40%;
+   
 }
 
 .logo_footer {
-    width: 120px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    /* height: 10%; */
 }
+
+.logo_footer>h3 {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    
+    /* height: 10%; */
+}
+
 
 .logo_footer>h3 {
     flex-wrap: wrap;
     font-size: 16px;
 }
 
-.botoes_footer {
-    /* margin-left: 10px; */
+.botoes_footer>h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
-.icones {
+.botoes_footer>h3 {
+    width: 165px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.botoes_footer>p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.icones>img {
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 /* #teste {
